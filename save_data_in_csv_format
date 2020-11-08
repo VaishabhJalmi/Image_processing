@@ -1,5 +1,5 @@
 ##Code to convert image to 3d array format matrix and store arrays in csv format
-```
+
 # Import the necessary libraries
 import cv2
 from PIL import Image 
@@ -30,5 +30,5 @@ print(numpydata)
 # save array into csv file 
 numpy.savetxt("data.csv", numpydata,  
               delimiter = ",")
-``` 
+
               
